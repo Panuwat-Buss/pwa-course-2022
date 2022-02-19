@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+}
+
+.ballA {
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.ballB {
+    background-color: rgb(102, 255, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.ballC {
+    background-color: rgb(132, 0, 240);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.ballD {
+    background-color: rgb(247, 0, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
