@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './FriendList.css';
-import App from './components/App';
-import Avatar from './components/Avatar';
+import App from './components/App.js';
+import Avatar from './components/Avatar.js';
+
 
 function FriendList(){
   const [friends, setFriends] = useState([
@@ -14,7 +15,14 @@ function FriendList(){
   return(
     <App>
       <div className="friend-list">
-       ใส่โค้ดที่นี่
+       {
+        friends.map (x=>
+          <div className="friend-list-item">
+          <Avatar name={x.user}/> 
+          <div className="friend-list-item-text">{x.displayName} </div>
+          </div>
+       )
+    }     
       </div>
     </App>
   )
