@@ -20,6 +20,7 @@ function Chat() {
   ]);
 
   const onMsg = (msg) => {
+    const self = authState.user;
     
     const mappedValue = {
       ...msg,
